@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround2"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tvPleaseLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="244dp"
+        android:src="@drawable/color"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPleaseLogin"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="24dp"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:clickable="true"
+        android:text="forgot password ? click here"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/btnforgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnregis"
+        android:text="Forgot Password ? click here !" />
+
+</RelativeLayout>

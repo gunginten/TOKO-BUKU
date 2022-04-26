@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround2"
+    android:padding="25dp"
+    tools:context=".Registrasi">
+
+    <TextView
+        android:id="@+id/tvPleaseCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Your Account!!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/etRegisterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPleaseCreateAccount"
+        android:layout_marginTop="30sp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="24dp"
+        android:hint="User" />
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegisterName"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="24dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etRegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegisterUsername"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_baseline_account_box_24"
+        android:drawablePadding="24dp"
+        android:hint="Your name" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegisterPassword"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:clickable="true"
+        android:text="Already have account login here !"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B" />
+
+</RelativeLayout>
