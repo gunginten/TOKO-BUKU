@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Toko-Buku</string>
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Denpasar, Pemogan</string>
+    <string name="button_loc">Open Location</string>
+
 </resources>

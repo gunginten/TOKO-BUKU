@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TokoBuku">
         <activity
+            android:name=".Pembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".contac"
+            android:exported="false" />
+        <activity
+            android:name=".pembelian"
+            android:exported="false" />
+        <activity
+            android:name=".Buku"
+            android:exported="false" />
+        <activity
             android:name=".Registrasi"
             android:exported="false" />
         <activity
